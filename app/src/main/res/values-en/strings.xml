@@ -1,0 +1,3 @@
+<resources>
+    <string name="default_text">I am a text in the language configured on the user device</string>
+</resources>

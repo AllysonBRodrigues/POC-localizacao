@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">Poc Localização</string>
+    <string name="default_text">Eu sou um texto no idioma configurado no dispositivo usuário</string>
+</resources>
