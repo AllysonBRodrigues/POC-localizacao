@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">Poc Localização</string>
     <string name="default_text">Eu sou um texto no idioma configurado no dispositivo usuário</string>
+    <string name="variable_text">Meu nome é %1$s. Eu tenho %2$d anos</string>
 </resources>

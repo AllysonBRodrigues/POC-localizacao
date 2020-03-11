@@ -1,3 +1,4 @@
 <resources>
     <string name="default_text">I am a text in the language configured on the user device in Great Britain</string>
+    <string name="variable_text">"    My name is %1$s. I am %2$d years old"</string>
 </resources>

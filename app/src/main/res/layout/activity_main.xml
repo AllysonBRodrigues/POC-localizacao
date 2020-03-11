@@ -7,15 +7,27 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/defaultText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/default_text"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="25sp"
         android:padding="16dp"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/variableText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/defaultText"
+        android:textSize="25sp"
+        android:padding="16dp"
+        android:gravity="center_horizontal" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

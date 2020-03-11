@@ -1,3 +1,4 @@
 <resources>
     <string name="default_text">Soy un texto en el idioma configurado en el dispositivo del usuario en Argentina</string>
+    <string name="variable_text">Mi nombre es %1$s. tengo %2$d años</string>
 </resources>
